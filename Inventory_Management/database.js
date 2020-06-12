@@ -8,9 +8,9 @@ var mysql = require('mysql');
 
 // The connection details
 var conn = mysql.createConnection({
-  host: 'aws545.cdkokhrgxvt0.us-east-2.rds.amazonaws.com', 
-  user: 'admin',      
-  password: 'Dodge2020',     
+  host: '', 
+  user: '',      
+  password: '',     
   database: 'awsrds' 
 }); 
 
